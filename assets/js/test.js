@@ -13,4 +13,4 @@ function getRandomInt(min, max) {
 const int = getRandomInt(0, 3)
   
 console.log(int)
-window.location = links[int]
+window.location.href = links[int]
