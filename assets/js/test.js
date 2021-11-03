@@ -1,7 +1,7 @@
 const links = {
     0: 'https://docs.google.com/forms/d/e/1FAIpQLScSTXKbJy425-kSCaylG8n49TpN9bxUECRSwWke9tfQRnHqSA/viewform',
-    1: '',
-    2: '',
+    1: '1',
+    2: '2',
 }
 
 function getRandomInt(min, max) {
@@ -12,5 +12,5 @@ function getRandomInt(min, max) {
 
 const int = getRandomInt(0, 3)
   
-
+console.log(int)
 window.location = links[int]
