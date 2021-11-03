@@ -1,7 +1,7 @@
 const links = {
-    '0': 'https://docs.google.com/forms/d/e/1FAIpQLScSTXKbJy425-kSCaylG8n49TpN9bxUECRSwWke9tfQRnHqSA/viewform',
-    '1': '',
-    '2': '',
+    0: 'https://docs.google.com/forms/d/e/1FAIpQLScSTXKbJy425-kSCaylG8n49TpN9bxUECRSwWke9tfQRnHqSA/viewform',
+    1: '',
+    2: '',
 }
 
 function getRandomInt(min, max) {
@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
-console.log(getRandomInt(0, 3))
+const int = getRandomInt(0, 3)
   
 
-// window.location = 'https://www.google.com/'
+window.location = links[int]
