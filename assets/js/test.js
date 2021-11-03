@@ -1,7 +1,7 @@
 const links = {
     0: 'https://docs.google.com/forms/d/e/1FAIpQLScSTXKbJy425-kSCaylG8n49TpN9bxUECRSwWke9tfQRnHqSA/viewform',
-    1: '1',
-    2: '2',
+    1: 'https://www.youtube.com/',
+    2: 'https://www.google.com/',
 }
 
 function getRandomInt(min, max) {
